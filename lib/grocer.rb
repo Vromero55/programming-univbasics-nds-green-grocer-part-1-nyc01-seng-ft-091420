@@ -25,7 +25,6 @@ new_cart = cart
       counter += 1
     end
   end
-  binding.pry
 end
 
   # Consult README for inputs and outputs
