@@ -13,6 +13,7 @@ item=nil
 end
 
 def consolidate_cart(cart)
+  binding.pry
 new_cart = cart
   new_cart.each do |hash|
     counter= 0
