@@ -26,6 +26,7 @@ new_cart = cart
     end
   end
   new_cart.uniq
+  binding.pry
 end
 
   # Consult README for inputs and outputs
