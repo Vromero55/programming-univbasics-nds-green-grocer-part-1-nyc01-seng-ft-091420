@@ -13,9 +13,10 @@ item=nil
 end
 
 def consolidate_cart(cart)
+  binding.pry
 new_cart = cart
   new_cart.each do |hash|
-    counter= 0
+    counter=0
     item_counter = 0
     while counter < new_cart.length do
       if hash == new_cart[counter]
@@ -25,8 +26,12 @@ new_cart = cart
       counter += 1
     end
   end
-  new_cart.uniq
 end
+
+
+
+
+
 
   # Consult README for inputs and outputs
   #
