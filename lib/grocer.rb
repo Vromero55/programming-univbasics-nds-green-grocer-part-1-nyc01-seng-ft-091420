@@ -11,7 +11,7 @@ item=nil
   end
   item
 end
-
+binding.pry
 def consolidate_cart(cart)
   binding.pry
 new_cart = cart
