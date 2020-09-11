@@ -13,7 +13,7 @@ item=nil
 end
 
 def consolidate_cart(cart)
-new_cart = cart
+new_cart = cart.dup 
   new_cart.each do |hash|
     counter= 0
     item_counter = 0
