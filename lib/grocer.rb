@@ -19,7 +19,7 @@ new_cart = cart.dup
     item_counter = 0
     while counter < new_cart.length do
       if hash == new_cart[counter]
-        hash[:count] = item_counter + 1
+        hash[:count] = counter + 1
         item_counter = item_counter +1
       end
       counter += 1
