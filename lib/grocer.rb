@@ -13,12 +13,12 @@ item=nil
 end
 
 def consolidate_cart(cart)
-new_cart = cart.dup 
+new_cart = cart.dup
   new_cart.each do |hash|
     counter= 0
     item_counter = 0
     while counter < new_cart.length do
-      if hash == new_cart[counter]
+      if hash == new_cart[item_counter]
         hash[:count] = item_counter + 1
         item_counter = item_counter +1
       end
