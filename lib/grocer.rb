@@ -11,9 +11,8 @@ item=nil
   end
   item
 end
-binding.pry
+
 def consolidate_cart(cart)
-  binding.pry
 new_cart = cart
   new_cart.each do |hash|
     counter= 0
@@ -26,8 +25,6 @@ new_cart = cart
       counter += 1
     end
   end
-  new_cart.uniq
-  binding.pry
 end
 
   # Consult README for inputs and outputs
